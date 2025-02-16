@@ -1,0 +1,27 @@
+{
+"target_search_count": 5,
+"user_delay_time": 5,
+"is_promotion_active": true,
+
+"force_update": "1.0.0",
+"new_package_and_redirect": "0", 
+"current_version": "1.0.0",
+"audio_client_active": false,
+"video_client_active": false,
+"deny_cc": ["US","GB","MY","PH","IN","JP","CN","UY","TH","CA","IE","IL","BR","SG","KR","ES"],
+"gdpr_cc": ["GB","AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE"],
+
+"integrated_player": false,
+"player_configs": [
+    {
+      "priority": 1,
+      "package": "x.y.z"
+    },
+    {
+      "priority": 99,
+      "package": "x.y.z"
+    }
+  ],
+"advertise_player": false,
+"integrated_player_id": "x.y.z"
+}
