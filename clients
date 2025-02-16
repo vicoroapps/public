@@ -1,0 +1,40 @@
+{
+  "audioClient": {
+    "payload": {
+      "context": {
+        "client": {
+          "clientName": "ANDROID_VR",
+          "clientVersion": "1.56.21",
+          "deviceModel": "Quest 3",
+          "osVersion": "12",
+          "osName": "Android",
+          "androidSdkVersion": "32",
+          "hl": "en",
+          "timeZone": "UTC",
+          "utcOffsetMinutes": 0
+        }
+      }
+    },
+    "apiUrl": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+    "headers": {}
+  },
+  "videoClient": {
+    "payload": {
+      "context": {
+        "client": {
+          "clientName": "ANDROID_VR",
+          "clientVersion": "1.56.21",
+          "deviceModel": "Quest 3",
+          "osVersion": "12",
+          "osName": "Android",
+          "androidSdkVersion": "32",
+          "hl": "en",
+          "timeZone": "UTC",
+          "utcOffsetMinutes": 0
+        }
+      }
+    },
+    "apiUrl": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+    "headers": {}
+  }
+}
