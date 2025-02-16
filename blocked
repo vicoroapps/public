@@ -1,0 +1,5 @@
+{
+    "mediaIdList": ["xyz"],
+    "channelIdList": ["abcde"],
+    "mediaNameList": ["text1 | \"text2alllang\""]
+  }
