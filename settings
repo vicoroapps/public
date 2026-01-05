@@ -1,10 +1,10 @@
 {
-    "target_search_count": 10,
-    "user_active_time": 10,
-    "user_delay_time": 30,
+    "target_search_count": 5,
+    "user_active_time": 8,
+    "user_delay_time": 15,
     "is_promotion_active": true,
     "first_ad_type": 1,
-    "new_user_first_ad_step": 3,
+    "new_user_first_ad_step": 1,
     "first_ad_step": 1,
     "current_version": "1.0.0",
     "force_update": "1.0.0",
@@ -28,6 +28,8 @@
     "is_show_related": true,
     "is_redirect_banned_user": true,
     "is_reference_active": true,
+    "is_show_promotion_dialog": true,
+    "is_show_interstitial_android12_below": true,
     "deny_cc": [
         "US",
         "GB",
