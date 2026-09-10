@@ -111,23 +111,24 @@
     "matchMode": "and",
     "targeting": {
       "countries": {
-        "include": [
-          "US",
-          "GB",
-          "MY",
-          "PH",
-          "IN",
-          "JP",
-          "CN",
-          "UY",
-          "BE",
-          "TH",
-          "CA",
-          "IE",
-          "IL",
-          "SG",
-          "KR",
-          "ES"
+        "include": [        
+         "US",
+        "GB",
+        "MY",
+        "PH",
+        "IN",
+        "JP",
+        "CN",
+        "UY",
+        "TH",
+        "CA",
+        "IE",
+        "IL",
+        "BR",
+        "SG",
+        "KR",
+        "ES",
+        "MX"
         ],
         "exclude": []
       },
@@ -135,21 +136,6 @@
         "android"
       ],
       "versions": []
-    }
-  },
-  {
-    "id": "block_access_ios",
-    "enabled": true,
-    "matchMode": "and",
-    "targeting": {
-      "countries": {
-        "include": [],
-        "exclude": []
-      },
-      "platforms": [
-        "ios"
-      ],
-      "versions": ["1.2.0"]
     }
   }
 ],
@@ -304,7 +290,7 @@
                      
                   ]
                },
-               "value":"casai"
+               "value":"applovin"
             }
          ],
          "adFree":[
@@ -333,99 +319,6 @@
          ],
          "tier":[
             {
-               "id":"ad_tier_high_value_countries",
-               "enabled":true,
-               "matchMode":"and",
-               "targeting":{
-                  "countries":{
-                     "include":[
-                        "US",
-                        "CA",
-                        "GB"
-                     ],
-                     "exclude":[
-                        
-                     ]
-                  },
-                  "platforms":[
-                     "android",
-                     "ios"
-                  ],
-                  "versions":[
-                     
-                  ]
-               },
-               "value":{
-                  "firstAdDelay":10,
-                  "repeatInterval":30,
-                  "newUserFirstAdStep":3,
-                  "firstAdStep":1
-               }
-            },
-            {
-               "id":"ad_tier_medium_value_countries",
-               "enabled":true,
-               "matchMode":"and",
-               "targeting":{
-                  "countries":{
-                     "include":[
-                        "ES",
-                        "MY",
-                        "ID"
-                     ],
-                     "exclude":[
-                        
-                     ]
-                  },
-                  "platforms":[
-                     "android",
-                     "ios"
-                  ],
-                  "versions":[
-                     
-                  ]
-               },
-               "value":{
-                  "firstAdDelay":8,
-                  "repeatInterval":20,
-                  "newUserFirstAdStep":3,
-                  "firstAdStep":1
-               }
-            },
-            {
-               "id":"ad_tier_low_value_countries",
-               "enabled":true,
-               "matchMode":"and",
-               "targeting":{
-                  "countries":{
-                     "include":[
-                        "IN",
-                        "TR",
-                        "PH",
-                        "VN",
-                        "PK",
-                        "BD"
-                     ],
-                     "exclude":[
-                        
-                     ]
-                  },
-                  "platforms":[
-                     "android",
-                     "ios"
-                  ],
-                  "versions":[
-                     
-                  ]
-               },
-               "value":{
-                  "firstAdDelay":3,
-                  "repeatInterval":10,
-                  "newUserFirstAdStep":3,
-                  "firstAdStep":1
-               }
-            },
-            {
                "id":"ad_tier_default",
                "enabled":true,
                "matchMode":"and",
@@ -447,9 +340,9 @@
                   ]
                },
                "value":{
-                  "firstAdDelay":15,
-                  "repeatInterval":30,
-                  "newUserFirstAdStep":3,
+                  "firstAdDelay":8,
+                  "repeatInterval":10,
+                  "newUserFirstAdStep":1,
                   "firstAdStep":1
                }
             }
@@ -507,7 +400,7 @@
          "proFeature":[
             {
                "id":"pro_feature_rule",
-               "enabled":false,
+               "enabled":true,
                "matchMode":"and",
                "targeting":{
                   "countries":{
